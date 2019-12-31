@@ -9,6 +9,8 @@ You want to set up `http` or `https` proxies for outbound connections to Matterm
 
 ### 0. Install Mattermost Server
 
+[Instructions here](https://docs.mattermost.com/install/install-ubuntu-1804.html)
+
 ### 1. Install `mitmproxy`
 
 First, install `mitmproxy` and its necessary dependencies
