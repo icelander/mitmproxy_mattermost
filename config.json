@@ -1,0 +1,34 @@
+{
+    "ServiceSettings": {
+        "SiteURL": "http://127.0.0.1:8065",
+        "EnableTutorial": false,
+        "EnableLinkPreviews": true,
+        "AllowedUntrustedInternalConnections": "127.0.0.1",
+        "EnableInsecureOutgoingConnections": false
+    },
+    "TeamSettings": {
+        "SiteName": "Example Site"
+    },
+    "SqlSettings": {
+        "DriverName": "mysql",
+        "DataSource": "mmuser:really_secure_password@tcp(127.0.0.1:3306)/mattermost?charset=utf8mb4,utf8\u0026readTimeout=30s\u0026writeTimeout=30s"
+    },
+    "LogSettings": {
+        "EnableConsole": true,
+        "ConsoleLevel": "DEBUG",
+        "ConsoleJson": false,
+        "EnableFile": true,
+        "FileLevel": "DEBUG",
+        "FileJson": false,
+        "FileLocation": "",
+        "EnableWebhookDebugging": true,
+        "EnableDiagnostics": false
+    },
+    "PasswordSettings": {
+        "MinimumLength": 5,
+        "Lowercase": false,
+        "Number": false,
+        "Uppercase": false,
+        "Symbol": false
+    }
+}
